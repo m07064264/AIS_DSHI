@@ -1,3 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+@import "tailwindcss";
+
+ @theme {
+  /* Главные фоны приложения */
+  --color-bg-page: #f4f4f5;         /* Фоновый цвет всей страницы */
+  --color-bg-card: #ffffff;         /* Фоновый цвет карточек и модалок */
+  --color-bg-input: #ffffff;        /* Фоновый цвет полей ввода */
+
+  /* Контуры и границы */
+  --color-border-main: #d4d4d8;     /* Цвет рамок карточек и инпутов */
+
+  /* Текст */
+  --color-text-main: #ffffff;       /* Основной цвет текста для заголовков */
+  --color-text-muted: #a1a1aa;      /* Блеклый цвет для подписей типа "АИС ДШИ" */
+
+  /* Интерактивные элементы (Кнопки, ссылки) */
+  --color-btn-accent: #4f46e5;      /* Основной фиолетовый цвет кнопок */
+  --color-btn-hover: #4338ca;       /* Цвет кнопки при наведении мыши */
+  --color-btn-text: #ffffff;        /*цвет текста на кнопке*/
+}
+
+
